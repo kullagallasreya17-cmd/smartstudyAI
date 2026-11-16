@@ -1,0 +1,2 @@
+# smartstudyAI
+Simple study platform
