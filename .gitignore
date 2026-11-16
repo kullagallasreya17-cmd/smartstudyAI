@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment
+.env
+.env.local
+.env.production
+.env*
+!.env.example
+!**/.env.example
+
+# Local secrets and credentials
+infra/k8s/secrets.yaml
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Build outputs
+dist/
+build/
+.next/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.tar
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
